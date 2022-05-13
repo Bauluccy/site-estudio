@@ -111,5 +111,14 @@ body{
 .label{
     margin-top: 2%;
     margin-left: 2%;
+    margin-bottom: 2%;
     font-size: 1.2em;
+    width: 40%;
+    /* border-radius: 30%; */
 }
+
+.labelMessage{
+    flex-direction: column;
+}
+
+
