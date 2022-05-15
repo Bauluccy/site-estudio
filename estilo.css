@@ -5,6 +5,7 @@
 
 body{
     margin: 5%;
+    background-color: #fffde7;
 }
 
 .flex{
@@ -106,6 +107,7 @@ body{
 
 .form{
     border: 1px solid;
+    border-radius: 5%;
 }
 
 .label{
@@ -113,12 +115,18 @@ body{
     margin-left: 2%;
     margin-bottom: 2%;
     font-size: 1.2em;
+    padding-bottom: 0.5em;
     width: 40%;
-    /* border-radius: 30%; */
+    background-color: #fffde7;
 }
 
-.labelMessage{
-    flex-direction: column;
+.inputAlign{
+    margin-left: 3.2%;
 }
 
-
+.labelText{
+    display: flex;
+    width: 90%;
+    background-color: #fffde7;
+    
+}
